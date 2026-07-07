@@ -1,0 +1,19 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad-codenest-website" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#172152"/>
+      <stop offset="100%" stop-color="#2657ea"/>
+    </linearGradient>
+    <pattern id="grid-codenest-website" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="500" fill="url(#grad-codenest-website)"/>
+  <rect width="800" height="500" fill="url(#grid-codenest-website)"/>
+  <g opacity="0.15">
+    <circle cx="680" cy="80" r="120" fill="white"/>
+    <circle cx="60" cy="440" r="90" fill="white"/>
+  </g>
+  <text x="50%" y="46%" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="white">CodeNest Responsive Website</text>
+  <text x="50%" y="56%" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="rgba(255,255,255,0.75)">Practice Project</text>
+</svg>
