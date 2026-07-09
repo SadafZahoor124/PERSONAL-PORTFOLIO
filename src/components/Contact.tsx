@@ -10,12 +10,12 @@ import type { ContactFormData, ContactFormErrors } from "@/types";
 const SOCIAL_LINKS = [
   {
     label: "GitHub",
-    href: "https://github.com/your-username",
+    href: "https://github.com/SadafZahoor124",
     icon: FiGithub,
   },
   {
     label: "LinkedIn",
-    href: "https://linkedin.com/in/your-username",
+    href: "https://www.linkedin.com/in/sadaf-zahoor-447158374?utm_source=share_via&utm_content=profile&utm_medium=member_android",
     icon: FiLinkedin,
   },
   {
