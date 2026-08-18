@@ -31,4 +31,14 @@ export const projects: ProjectItem[] = [
     githubUrl: "https://github.com/your-username/hackerrank-landing-clone",
     status: "Front-End Completed",
   },
+  {
+    id: "portfolio-website",
+    title: "Portfolio Website",
+    description:
+      "A personal developer portfolio template with dark mode, glassmorphism cards, and reusable animated components.",
+    image: "/projects/portfolio.svg",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS"],
+    githubUrl: "https://github.com/your-username/portfolio-website",
+    liveUrl: "https://your-portfolio-demo.vercel.app",
+  },
 ];
