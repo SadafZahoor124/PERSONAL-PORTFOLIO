@@ -8,7 +8,7 @@ export const projects: ProjectItem[] = [
       "A responsive front-end clone of the HackerRank website, built as a personal learning project to practice UI development and responsive design.",
     image: "/projects/hackerrank-clone.svg",
     tags: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
-    githubUrl: "https://github.com/your-username/hackerrank-landing-clone",
+    githubUrl: "https://github.com/sadafzahoor124/hackerRank-clone",
     status: "Front-End Completed",
   },
   {
@@ -18,7 +18,7 @@ export const projects: ProjectItem[] = [
       "A responsive front-end website created as a practice project, focused on clean UI and responsive layouts across devices.",
     image: "/projects/codenest-website.svg",
     tags: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
-    githubUrl: "https://github.com/your-username/codenest-responsive-website",
+    githubUrl: "https://github.com/sadafzahoor124/CODENEST",
     status: "Front-End Completed",
   },
   {
@@ -28,7 +28,7 @@ export const projects: ProjectItem[] = [
       "A responsive front-end clone of the Airbnb website, built as a personal learning project to practice UI development and responsive design.",
     image: "/projects/airbnb-services-clone.png",
     tags: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
-    githubUrl: "https://github.com/your-username/hackerrank-landing-clone",
+    githubUrl: "https://github.com/sadafzahoor124/AIRBNB-SERVICES-CLONE",
     status: "Front-End Completed",
   },
   {
@@ -38,7 +38,7 @@ export const projects: ProjectItem[] = [
       "A personal developer portfolio template with dark mode, glassmorphism cards, and reusable animated components.",
     image: "/projects/portfolio.svg",
     tags: ["Next.js", "TypeScript", "Tailwind CSS"],
-    githubUrl: "https://github.com/your-username/portfolio-website",
+    githubUrl: "https://github.com/sadafzahoor124/PERSONAL-PORTFOLIO",
     liveUrl: "https://your-portfolio-demo.vercel.app",
   },
 ];
