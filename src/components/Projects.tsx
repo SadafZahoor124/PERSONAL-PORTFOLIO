@@ -15,7 +15,7 @@ export default function Projects() {
           title="Projects I've practiced with"
           description="Personal learning and practice projects I built to sharpen my front-end and responsive design skills."
         />
-
+        
         <div className="grid gap-8 sm:grid-cols-2 lg:max-w-3xl lg:mx-auto">
           {projects.map((project, index) => (
             <motion.article

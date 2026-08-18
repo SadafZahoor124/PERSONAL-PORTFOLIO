@@ -21,4 +21,14 @@ export const projects: ProjectItem[] = [
     githubUrl: "https://github.com/your-username/codenest-responsive-website",
     status: "Front-End Completed",
   },
+  {
+    id: "airbnb-landing-clone",
+    title: "AIRBNB Landing Page Clone",
+    description:
+      "A responsive front-end clone of the Airbnb website, built as a personal learning project to practice UI development and responsive design.",
+    image: "/projects/airbnb-services-clone.png",
+    tags: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
+    githubUrl: "https://github.com/your-username/hackerrank-landing-clone",
+    status: "Front-End Completed",
+  },
 ];
