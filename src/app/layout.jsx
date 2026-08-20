@@ -1,4 +1,3 @@
-import type { Metadata, Viewport } from "next";
 import { Space_Grotesk, Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/ThemeProvider";
@@ -30,7 +29,7 @@ const SITE_TITLE = "Sadaf Zahoor | Front-End Web Developer";
 const SITE_DESCRIPTION =
   "Portfolio of Sadaf Zahoor, a Front-End Web Developer and BS Computer Science student from Pakistan, specializing in React, Next.js, and Tailwind CSS. Open to front-end internships and freelance opportunities.";
 
-export const metadata: Metadata = {
+export const metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
     default: SITE_TITLE,
@@ -79,7 +78,7 @@ export const metadata: Metadata = {
   },
 };
 
-export const viewport: Viewport = {
+export const viewport = {
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "#ffffff" },
     { media: "(prefers-color-scheme: dark)", color: "#0f1a30" },
@@ -101,11 +100,7 @@ const themeInitScript = `
 })();
 `;
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }) {
   return (
     <html
       lang="en"

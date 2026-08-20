@@ -1,6 +1,4 @@
-import type { ProjectItem } from "@/types";
-
-export const projects: ProjectItem[] = [
+export const projects = [
   {
     id: "hackerrank-landing-clone",
     title: "HackerRank Landing Page Clone",

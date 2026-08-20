@@ -1,7 +1,6 @@
 import { FaLaptopCode, FaMobileAlt, FaReact, FaPaintBrush } from "react-icons/fa";
-import type { ServiceItem } from "@/types";
 
-export const services: ServiceItem[] = [
+export const services = [
   {
     title: "Front-End Development",
     description:

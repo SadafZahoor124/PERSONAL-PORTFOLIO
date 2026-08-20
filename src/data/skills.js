@@ -8,9 +8,8 @@ import {
   FaMobileAlt,
 } from "react-icons/fa";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
-import type { SkillItem } from "@/types";
 
-export const skills: SkillItem[] = [
+export const skills = [
   {
     name: "HTML5",
     icon: FaHtml5,

@@ -1,19 +1,12 @@
 import Reveal from "./Reveal";
 import { cn } from "@/lib/utils";
 
-interface SectionHeadingProps {
-  eyebrow: string;
-  title: string;
-  description?: string;
-  align?: "left" | "center";
-}
-
 export default function SectionHeading({
   eyebrow,
   title,
   description,
   align = "center",
-}: SectionHeadingProps) {
+}) {
   return (
     <Reveal
       className={cn(

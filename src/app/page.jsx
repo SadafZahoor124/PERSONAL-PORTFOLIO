@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
@@ -7,7 +6,7 @@ import Services from "@/components/Services";
 import Education from "@/components/Education";
 import Contact from "@/components/Contact";
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Sadaf Zahoor | Front-End Web Developer",
 };
 

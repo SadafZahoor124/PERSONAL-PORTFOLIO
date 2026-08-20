@@ -1,17 +1,10 @@
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
-interface ContactPayload {
-  name?: string;
-  email?: string;
-  subject?: string;
-  message?: string;
-}
-
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-function validatePayload(payload: ContactPayload) {
-  const errors: string[] = [];
+function validatePayload(payload) {
+  const errors = [];
 
   if (!payload.name || !payload.name.trim()) errors.push("Name is required.");
   if (!payload.email || !payload.email.trim()) {
@@ -27,8 +20,8 @@ function validatePayload(payload: ContactPayload) {
   return errors;
 }
 
-export async function POST(request: Request) {
-  let payload: ContactPayload;
+export async function POST(request) {
+  let payload;
 
   try {
     payload = await request.json();
@@ -47,7 +40,7 @@ export async function POST(request: Request) {
     );
   }
 
-  const { name, email, subject, message } = payload as Required<ContactPayload>;
+  const { name, email, subject, message } = payload;
 
   const { SMTP_HOST, SMTP_PORT, SMTP_SECURE, SMTP_USER, SMTP_PASS, CONTACT_RECEIVER_EMAIL } =
     process.env;
@@ -114,7 +107,7 @@ export async function POST(request: Request) {
   }
 }
 
-function escapeHtml(value: string) {
+function escapeHtml(value) {
   return value
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")

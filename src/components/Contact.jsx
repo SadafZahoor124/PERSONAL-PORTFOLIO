@@ -1,11 +1,10 @@
 "use client";
 
-import { useState, type FormEvent } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { FiGithub, FiLinkedin, FiMail, FiSend, FiCheckCircle, FiAlertCircle } from "react-icons/fi";
 import SectionHeading from "./SectionHeading";
 import { isValidEmail } from "@/lib/utils";
-import type { ContactFormData, ContactFormErrors } from "@/types";
 
 const SOCIAL_LINKS = [
   {
@@ -25,9 +24,7 @@ const SOCIAL_LINKS = [
   },
 ];
 
-type Status = "idle" | "submitting" | "success" | "error";
-
-const initialForm: ContactFormData = {
+const initialForm = {
   name: "",
   email: "",
   subject: "",
@@ -35,13 +32,13 @@ const initialForm: ContactFormData = {
 };
 
 export default function Contact() {
-  const [form, setForm] = useState<ContactFormData>(initialForm);
-  const [errors, setErrors] = useState<ContactFormErrors>({});
-  const [status, setStatus] = useState<Status>("idle");
-  const [statusMessage, setStatusMessage] = useState<string>("");
+  const [form, setForm] = useState(initialForm);
+  const [errors, setErrors] = useState({});
+  const [status, setStatus] = useState("idle");
+  const [statusMessage, setStatusMessage] = useState("");
 
-  const validate = (data: ContactFormData): ContactFormErrors => {
-    const nextErrors: ContactFormErrors = {};
+  const validate = (data) => {
+    const nextErrors = {};
     if (!data.name.trim()) nextErrors.name = "Please enter your name.";
     if (!data.email.trim()) {
       nextErrors.email = "Please enter your email.";
@@ -57,14 +54,11 @@ export default function Contact() {
     return nextErrors;
   };
 
-  const handleChange = (
-    field: keyof ContactFormData,
-    value: string
-  ) => {
+  const handleChange = (field, value) => {
     setForm((prev) => ({ ...prev, [field]: value }));
   };
 
-  const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
 
     const validationErrors = validate(form);

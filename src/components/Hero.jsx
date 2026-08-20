@@ -58,7 +58,7 @@ function TypedCode() {
   );
 }
 
-function colorizeLine(text: string) {
+function colorizeLine(text) {
   // Very small, safe "syntax highlight" split — purely presentational.
   if (text.includes(":") && !text.trim().startsWith("const")) {
     const [key, ...rest] = text.split(":");
@@ -177,7 +177,7 @@ export default function Hero() {
                 <span className="h-2.5 w-2.5 rounded-full bg-red-400/80" />
                 <span className="h-2.5 w-2.5 rounded-full bg-yellow-400/80" />
                 <span className="h-2.5 w-2.5 rounded-full bg-emerald-400/80" />
-                <span className="ml-2 text-xs text-ink-400">profile.ts</span>
+                <span className="ml-2 text-xs text-ink-400">profile.js</span>
               </div>
               <div className="p-5">
                 <TypedCode />

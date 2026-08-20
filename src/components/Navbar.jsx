@@ -31,7 +31,7 @@ export default function Navbar() {
   useEffect(() => {
     const sections = NAV_LINKS.map((link) =>
       document.querySelector(link.href)
-    ).filter((el): el is Element => Boolean(el));
+    ).filter(Boolean);
 
     const observer = new IntersectionObserver(
       (entries) => {

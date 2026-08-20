@@ -1,17 +1,8 @@
 "use client";
 
-import { motion, type Variants } from "framer-motion";
-import type { ReactNode } from "react";
+import { motion } from "framer-motion";
 
-interface RevealProps {
-  children: ReactNode;
-  delay?: number;
-  y?: number;
-  className?: string;
-  once?: boolean;
-}
-
-const variants: Variants = {
+const variants = {
   hidden: { opacity: 0, y: 24 },
   visible: { opacity: 1, y: 0 },
 };
@@ -22,7 +13,7 @@ export default function Reveal({
   y = 24,
   className,
   once = true,
-}: RevealProps) {
+}) {
   return (
     <motion.div
       initial="hidden"

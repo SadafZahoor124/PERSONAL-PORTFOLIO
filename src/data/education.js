@@ -1,6 +1,4 @@
-import type { EducationItem } from "@/types";
-
-export const education: EducationItem[] = [
+export const education = [
   {
     id: "matric",
     title: "Matriculation (Science)",
