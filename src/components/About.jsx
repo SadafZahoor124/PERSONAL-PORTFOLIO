@@ -8,7 +8,7 @@ import SectionHeading from "./SectionHeading";
 const HIGHLIGHTS = [
   "Passionate about front-end development and pixel-perfect UI",
   "Currently pursuing a BS in Computer Science",
-  "Actively seeking a front-end internship to grow professionally",
+  "Actively working a front-end internship to grow professionally",
   "Comfortable building responsive layouts with React & Tailwind CSS",
 ];
 
@@ -55,8 +55,8 @@ export default function About() {
               CSS, and I care deeply about building interfaces that are fast,
               accessible, and responsive on every screen size. Alongside my
               studies, I&apos;m actively building projects to sharpen my
-              skills and am currently looking for a front-end internship
-              where I can learn from experienced developers and contribute to
+              skills and am currently working for a front-end internship
+              where I learn from experienced developers and contribute to
               real products — as well as freelance opportunities to keep
               growing.
             </p>
