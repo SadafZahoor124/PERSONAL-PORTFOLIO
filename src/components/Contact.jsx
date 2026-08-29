@@ -19,7 +19,7 @@ const SOCIAL_LINKS = [
   },
   {
     label: "Email",
-    href: "mailto:your-email@example.com",
+    href: "mailto:sadafzahoor310@gmail.com",
     icon: FiMail,
   },
 ];

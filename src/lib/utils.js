@@ -13,7 +13,7 @@ export function cn(...inputs) {
     }
     out.push(String(value));
   };
-
+  
   inputs.forEach(walk);
   return out.join(" ");
 }

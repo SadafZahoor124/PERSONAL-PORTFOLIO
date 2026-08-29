@@ -8,7 +8,7 @@ import SectionHeading from "./SectionHeading";
 const HIGHLIGHTS = [
   "Passionate about front-end development and pixel-perfect UI",
   "Currently pursuing a BS in Computer Science",
-  "Actively working a front-end internship to grow professionally",
+  "Actively working a front-end internship at Aptech to grow professionally",
   "Comfortable building responsive layouts with React & Tailwind CSS",
 ];
 
