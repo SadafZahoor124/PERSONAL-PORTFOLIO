@@ -6,8 +6,11 @@ import {
   FaGitAlt,
   FaGithub,
   FaMobileAlt,
+   FaNodeJs,
 } from "react-icons/fa";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
+// import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
+import { SiExpress, SiMongodb, SiPostman } from "react-icons/si";
 
 export const skills = [
   {
@@ -45,6 +48,30 @@ export const skills = [
     icon: RiTailwindCssFill,
     level: 90,
     color: "text-teal-400",
+  },
+  {
+    name: "Node.js",
+    icon: FaNodeJs,
+    level: 70,
+    color: "text-green-500",
+  },
+  {
+    name: "Express.js",
+    icon: SiExpress,
+    level: 68,
+    color: "text-ink-900 dark:text-white",
+  },
+  {
+    name: "MongoDB",
+    icon: SiMongodb,
+    level: 65,
+    color: "text-green-600",
+  },
+  {
+    name: "REST APIs",
+    icon: SiPostman,
+    level: 65,
+    color: "text-orange-500",
   },
   {
     name: "Git",

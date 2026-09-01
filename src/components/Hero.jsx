@@ -102,7 +102,7 @@ export default function Hero() {
           </h1>
 
           <p className="mt-6 max-w-xl text-base leading-relaxed text-ink-500 dark:text-ink-300 sm:text-lg">
-            A Front-End Web Developer and BS Computer Science student from
+            A Full stack Web Developer and BS Computer Science student from
             Pakistan, focused on crafting responsive, accessible, and
             performant web interfaces with React, Next.js, and Tailwind CSS.
           </p>
@@ -135,7 +135,7 @@ export default function Hero() {
           <div className="mt-14 flex items-center gap-8">
             <div>
               <p className="font-display text-2xl font-bold text-ink-900 dark:text-white">
-                2+
+                4+
               </p>
               <p className="text-xs uppercase tracking-wide text-ink-400">
                 Practice Projects

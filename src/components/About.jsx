@@ -44,7 +44,7 @@ export default function About() {
 
           <Reveal delay={0.1}>
             <p className="text-base leading-relaxed text-ink-500 dark:text-ink-300 sm:text-lg">
-              I&apos;m Sadaf Zahoor, a Front-End Web Developer and BS Computer
+              I&apos;m Sadaf Zahoor, a Full-Stack Web Developer and BS Computer
               Science student based in Pakistan. I love the process of
               turning a design idea into a real, interactive interface —
               writing clean markup, styling it thoughtfully, and bringing it
@@ -55,9 +55,9 @@ export default function About() {
               CSS, and I care deeply about building interfaces that are fast,
               accessible, and responsive on every screen size. Alongside my
               studies, I&apos;m actively building projects to sharpen my
-              skills and am currently working for a front-end internship
+              skills and am currently doing a front-end developer internship at Aptech learning RYK,
               where I learn from experienced developers and contribute to
-              real products — as well as freelance opportunities to keep
+              real-world products — as well as freelance opportunities to keep
               growing.
             </p>
 
