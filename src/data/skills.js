@@ -5,90 +5,120 @@ import {
   FaReact,
   FaGitAlt,
   FaGithub,
-  FaMobileAlt,
-   FaNodeJs,
+  FaNodeJs,
+  FaJava,
 } from "react-icons/fa";
-import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
-// import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
-import { SiExpress, SiMongodb, SiPostman } from "react-icons/si";
 
-export const skills = [
+import {
+  RiNextjsFill,
+  RiTailwindCssFill,
+} from "react-icons/ri";
+
+import {
+  SiBootstrap,
+  SiExpress,
+  SiMongodb,
+  SiPostman,
+  SiCplusplus,
+} from "react-icons/si";
+
+export const skillCategories = [
   {
-    name: "HTML5",
-    icon: FaHtml5,
-    level: 95,
-    color: "text-orange-500",
+    title: "Frontend Development",
+    skills: [
+      {
+        name: "HTML5",
+        icon: FaHtml5,
+        color: "text-orange-500",
+      },
+      {
+        name: "CSS3",
+        icon: FaCss3Alt,
+        color: "text-blue-500",
+      },
+      {
+        name: "JavaScript",
+        icon: FaJs,
+        color: "text-yellow-400",
+      },
+      {
+        name: "React.js",
+        icon: FaReact,
+        color: "text-sky-400",
+      },
+      {
+        name: "Next.js",
+        icon: RiNextjsFill,
+        color: "text-ink-900 dark:text-white",
+      },
+      {
+        name: "Tailwind CSS",
+        icon: RiTailwindCssFill,
+        color: "text-teal-400",
+      },
+      {
+        name: "Bootstrap",
+        icon: SiBootstrap,
+        color: "text-purple-600",
+      },
+    ],
   },
+
   {
-    name: "CSS3",
-    icon: FaCss3Alt,
-    level: 90,
-    color: "text-blue-500",
+    title: "Backend Development",
+    skills: [
+      {
+        name: "Node.js",
+        icon: FaNodeJs,
+        color: "text-green-500",
+      },
+      {
+        name: "Express.js",
+        icon: SiExpress,
+        color: "text-ink-900 dark:text-white",
+      },
+      {
+        name: "REST APIs",
+        icon: SiPostman,
+        color: "text-orange-500",
+      },
+      {
+        name: "MongoDB",
+        icon: SiMongodb,
+        color: "text-green-600",
+      },
+    ],
   },
+
   {
-    name: "JavaScript",
-    icon: FaJs,
-    level: 88,
-    color: "text-yellow-400",
+    title: "Programming Languages",
+    skills: [
+      {
+        name: "Java",
+        icon: FaJava,
+        color: "text-red-500",
+      },
+      {
+        name: "C++",
+        icon: SiCplusplus,
+        color: "text-blue-600",
+      },
+    ],
   },
+
   {
-    name: "React.js",
-    icon: FaReact,
-    level: 85,
-    color: "text-sky-400",
-  },
-  {
-    name: "Next.js",
-    icon: RiNextjsFill,
-    level: 80,
-    color: "text-ink-900 dark:text-white",
-  },
-  {
-    name: "Tailwind CSS",
-    icon: RiTailwindCssFill,
-    level: 90,
-    color: "text-teal-400",
-  },
-  {
-    name: "Node.js",
-    icon: FaNodeJs,
-    level: 70,
-    color: "text-green-500",
-  },
-  {
-    name: "Express.js",
-    icon: SiExpress,
-    level: 68,
-    color: "text-ink-900 dark:text-white",
-  },
-  {
-    name: "MongoDB",
-    icon: SiMongodb,
-    level: 65,
-    color: "text-green-600",
-  },
-  {
-    name: "REST APIs",
-    icon: SiPostman,
-    level: 65,
-    color: "text-orange-500",
-  },
-  {
-    name: "Git",
-    icon: FaGitAlt,
-    level: 82,
-    color: "text-red-500",
-  },
-  {
-    name: "GitHub",
-    icon: FaGithub,
-    level: 85,
-    color: "text-ink-900 dark:text-white",
-  },
-  {
-    name: "Responsive Design",
-    icon: FaMobileAlt,
-    level: 92,
-    color: "text-brand-500",
+    title: "Tools & Version Control",
+    skills: [
+      {
+        name: "Git",
+        icon: FaGitAlt,
+        color: "text-red-500",
+      },
+      {
+        name: "GitHub",
+        icon: FaGithub,
+        color: "text-ink-900 dark:text-white",
+      },
+    ],
   },
 ];

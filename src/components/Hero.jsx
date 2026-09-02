@@ -135,7 +135,7 @@ export default function Hero() {
           <div className="mt-14 flex items-center gap-8">
             <div>
               <p className="font-display text-2xl font-bold text-ink-900 dark:text-white">
-                4+
+                5+
               </p>
               <p className="text-xs uppercase tracking-wide text-ink-400">
                 Practice Projects

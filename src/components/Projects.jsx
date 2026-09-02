@@ -13,10 +13,10 @@ export default function Projects() {
         <SectionHeading
           eyebrow="Featured Projects"
           title="Projects I've practiced with"
-          description="Personal learning and practice projects I built to sharpen my front-end and responsive design skills."
+          description="A collection of real-world, team, personal, and practice projects built to strengthen my web development skills."
         />
         
-        <div className="grid gap-8 sm:grid-cols-2 lg:max-w-3xl lg:mx-auto">
+        <div className="grid gap-8 sm:grid-cols-3 lg:grid-cols-3">
           {projects.map((project, index) => (
             <motion.article
               key={project.id}

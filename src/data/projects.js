@@ -1,13 +1,14 @@
 export const projects = [
-  {
-    id: "hackerrank-landing-clone",
-    title: "HackerRank Landing Page Clone",
+   {
+    id: "ahm-fragrances",
+    title: "AHM Fragrances",
     description:
-      "A responsive front-end clone of the HackerRank website, built as a personal learning project to practice UI development and responsive design.",
-    image: "/projects/hackerrank-clone.svg",
-    tags: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
-    githubUrl: "https://github.com/sadafzahoor124/hackerRank-clone",
-    status: "Front-End Completed",
+      "A live e-commerce fragrance project developed as a team. I contributed to the Admin Panel, working on product management, orders, stocks, customers, and revenue analytics features.",
+    image: "/projects/ahm-fragrances image.png",
+    tags: ["React.js", "Admin Panel", "API Integration", "MongoDB"],
+    githubUrl: "YOUR_GITHUB_URL",
+    liveUrl: "https://ahmfragrances.com/",
+    status: "Team Project • Admin Panel",
   },
   {
     id: "codenest-responsive-website",
@@ -19,6 +20,17 @@ export const projects = [
     githubUrl: "https://github.com/sadafzahoor124/CODENEST",
     status: "Front-End Completed",
   },
+  {
+    id: "hackerrank-landing-clone",
+    title: "HackerRank Landing Page Clone",
+    description:
+      "A responsive front-end clone of the HackerRank website, built as a personal learning project to practice UI development and responsive design.",
+    image: "/projects/hackerrank-clone.svg",
+    tags: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
+    githubUrl: "https://github.com/sadafzahoor124/hackerRank-clone",
+    status: "Front-End Completed",
+  },
+  
   {
     id: "airbnb-landing-clone",
     title: "AIRBNB Landing Page Clone",
