@@ -31,7 +31,7 @@ export default function About() {
               <div className="overflow-hidden rounded-[1.75rem] border border-white/60 bg-white/70 p-2 shadow-glass backdrop-blur-xl dark:border-white/10 dark:bg-white/5">
                 <div className="relative aspect-[4/5] w-full overflow-hidden rounded-[1.4rem]">
                   <Image
-                    src="/profile-placeholder.svg"
+                    src="/profile-placeholder.jpeg"
                     alt="Sadaf Zahoor working on a laptop"
                     fill
                     sizes="(min-width: 1024px) 384px, 80vw"
