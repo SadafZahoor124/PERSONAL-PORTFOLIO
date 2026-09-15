@@ -18,7 +18,7 @@ export const projects = [
     image: "/projects/codenest-website.svg",
     tags: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
     githubUrl: "https://github.com/sadafzahoor124/CODENEST",
-    status: "Front-End Completed",
+    status: "Front-End and backend Completed",
   },
   {
     id: "hackerrank-landing-clone",
@@ -49,6 +49,6 @@ export const projects = [
     image: "/projects/portfolio.svg",
     tags: ["Next.js", "TypeScript", "Tailwind CSS"],
     githubUrl: "https://github.com/sadafzahoor124/PERSONAL-PORTFOLIO",
-    liveUrl: "https://your-portfolio-demo.vercel.app",
+    liveUrl: "https://personal-portfolio-theta-vert-93.vercel.app/",
   },
 ];
