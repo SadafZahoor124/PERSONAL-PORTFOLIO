@@ -119,8 +119,7 @@ export default function Contact() {
                 Get in touch
               </h3>
               <p className="mt-3 text-sm leading-relaxed text-ink-500 dark:text-ink-300">
-                I&apos;m currently open to front-end internships and freelance
-                projects. Feel free to reach out through the form or any of
+                I&apos;m currently working at Aptech Learning RYK and am open to freelance projects and professional opportunities. Feel free to reach out through the form or any of
                 the links below — I try to respond within a day or two.
               </p>
             </div>

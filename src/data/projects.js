@@ -6,7 +6,7 @@ export const projects = [
       "A live e-commerce fragrance project developed as a team. I contributed to the Admin Panel, working on product management, orders, stocks, customers, and revenue analytics features.",
     image: "/projects/ahm-fragrances image.png",
     tags: ["React.js", "Admin Panel", "API Integration", "MongoDB"],
-    githubUrl: "YOUR_GITHUB_URL",
+    // githubUrl: "YOUR_GITHUB_URL",
     liveUrl: "https://ahmfragrances.com/",
     status: "Team Project • Admin Panel",
   },
@@ -48,7 +48,7 @@ export const projects = [
       "A personal developer portfolio template with dark mode, glassmorphism cards, and reusable animated components.",
     image: "/projects/portfolio.svg",
     tags: ["Next.js", "TypeScript", "Tailwind CSS"],
-    githubUrl: "https://github.com/sadafzahoor124/PERSONAL-PORTFOLIO",
+    // githubUrl: "https://github.com/sadafzahoor124/PERSONAL-PORTFOLIO",
     liveUrl: "https://personal-portfolio-theta-vert-93.vercel.app/",
   },
 ];

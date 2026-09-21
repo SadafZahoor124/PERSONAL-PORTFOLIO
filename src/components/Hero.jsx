@@ -89,7 +89,8 @@ export default function Hero() {
         >
           <span className="inline-flex items-center gap-2 rounded-full border border-brand-200 bg-brand-50 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-brand-700 dark:border-brand-500/30 dark:bg-brand-500/10 dark:text-brand-300">
             <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
-            Open to Internships &amp; Freelance Work
+            {/* Open to Internships &amp; Freelance Work */}
+            Working at Aptech Learning RYK
           </span>
 
           <h1 className="mt-6 font-display text-4xl font-bold leading-tight tracking-tight text-ink-900 dark:text-white sm:text-5xl lg:text-[3.4rem]">

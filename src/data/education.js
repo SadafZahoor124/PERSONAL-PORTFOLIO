@@ -23,7 +23,7 @@ export const education = [
     institution: "Khawaja Fareed Graduate College , Rahim Yar Khan, Pakistan",
     period: "In Progress",
     description:
-      "Currently studying core computer science subjects while specializing in front-end web development through React, Next.js, and modern UI engineering.",
+      "Currently studying core computer science subjects while developing professional skills in full-stack web development.",
     status: "in-progress",
   },
 ];

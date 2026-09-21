@@ -13,7 +13,7 @@ const NAV_LINKS = [
 const SOCIAL_LINKS = [
   { label: "GitHub", href: "https://github.com/SadafZahoor124", icon: FiGithub },
   { label: "LinkedIn", href: "https://www.linkedin.com/in/sadaf-zahoor-447158374?utm_source=share_via&utm_content=profile&utm_medium=member_android", icon: FiLinkedin },
-  { label: "Email", href: "mailto:your-email@example.com", icon: FiMail },
+  { label: "Email", href: "mailto:sadafzahoor310@gmail.com", icon: FiMail },
 ];
 
 export default function Footer() {
