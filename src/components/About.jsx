@@ -44,7 +44,7 @@ export default function About() {
 
           <Reveal delay={0.1}>
             <p className="text-base leading-relaxed text-ink-500 dark:text-ink-300 sm:text-lg">
-              I&apos;m Sadaf Zahoor, a Full-Stack Web Developer and BS Computer
+              I&apos;m Sadaf Zahoor, a Murn-Stack Web Developer and BS Computer
               Science student based in Pakistan. I love the process of
               turning a design idea into a real, interactive interface —
               writing clean markup, styling it thoughtfully, and bringing it

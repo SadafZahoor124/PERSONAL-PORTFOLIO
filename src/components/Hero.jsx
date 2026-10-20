@@ -103,7 +103,7 @@ export default function Hero() {
           </h1>
 
           <p className="mt-6 max-w-xl text-base leading-relaxed text-ink-500 dark:text-ink-300 sm:text-lg">
-            A Full stack Web Developer and BS Computer Science student from
+            A Murn stack Web Developer and BS Computer Science student from
             Pakistan, focused on crafting responsive, accessible, and
             performant web interfaces with React, Next.js, and Tailwind CSS.
           </p>
